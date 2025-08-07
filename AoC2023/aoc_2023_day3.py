@@ -81,7 +81,7 @@ def part2(puzzle) :
 
     sum_gear_ratios = 0
 
-    for key, value in dict_check_match.items() : 
+    for key, value in dict_check_match.items() :
 
         # we look for the symbol that have exactly 2 numbers adjacent
         # so we look for 2 elements in the list

@@ -7,13 +7,13 @@ import re
 
 def read_data(input_f) :
 
-    """_summary_
+    """Reads the input file.
 
     Args:
-        input_f (_type_): _description_
+        input_f (str): path of the input file
 
     Returns:
-        _type_: _description_
+        list: List of game ids
     """
 
     dict_conditions = {
@@ -64,10 +64,11 @@ def calculate_sum(list_game_id) :
 
 def pb2(input_f) :
 
-    """_summary_
+    """Read data and solve the second problem of the day.
 
     Args:
-        input_f (_type_): _description_
+        input_f (str): path of the input file
+
     """
 
     # list_game_id = []
